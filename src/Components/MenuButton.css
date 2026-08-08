@@ -1,0 +1,18 @@
+
+.menuLink{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1vw;
+
+}
+
+.menuLink:hover{
+    color:rgb(22, 197, 197);
+}
+
+.menuLink:active{
+    color: rgb(16, 156, 156);
+}
+

@@ -1,0 +1,390 @@
+.globalBackground{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.topRow{
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  background-color: rgb(16, 156, 156);
+}
+
+.topOne{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  align-items: center;
+  justify-content: center;
+}
+
+.topOneOneContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameText{
+  color: aliceblue;
+  text-shadow: 0 0 10px white;
+  font-size: 1.5vw;
+  font-style: italic;
+  font-family:Helvetica;
+  user-select: none;
+}
+
+.nameText:hover{
+  color:rgb(22, 197, 197);
+  text-shadow: 0 0 10px rgb(17, 247, 247);
+}
+
+.topOneTwoContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.topOneThreeContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.topTwo{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
+
+.topThree{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topThreeOneContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  align-items: center;
+  justify-content: center;
+}
+
+.topThreeTwoContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.topThreeThreeContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  align-items: center;
+  justify-content: center;
+}
+
+.topThreeFourContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  align-items: center;
+  justify-content: center;
+}
+
+.topFour{
+  display: flex;
+  height: 100%;
+  
+}
+
+.bodyRow{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex: 6;
+  background-color: rgb(16, 156, 156);
+}
+
+.bodyColumnOne{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 2;
+  background-color: rgba(240, 248, 255, 0.735);
+}
+
+
+.bodyTitleContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 2;
+  background-color: rgba(240, 248, 255, 0.735);
+  
+}
+
+.bufferContainer{
+  display: flex;
+  flex: 1;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.735);
+}
+
+.titleNameTextContainer{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  background-color: rgba(240, 248, 255, 0.735);
+  font-size: 3.8vw;
+  padding-left: 6vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(6, 56, 56);
+  
+}
+
+.subtitleNameTextContainer{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  font-size: 2vw;
+  padding-left: 6vw;
+  background-color: rgba(240, 248, 255, 0.735);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(6, 56, 56);
+}
+
+.bodyTextContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 4;
+  background-color: rgba(240, 248, 255, 0.735);
+  
+  
+}
+
+.bodyTextBarrier{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  background-color: rgba(240, 248, 255, 0.735);
+}
+
+.bodyTextActual{
+  display: flex;
+  width: 100%;
+  flex: 14;
+  background-color: rgba(240, 248, 255, 0.735);
+  padding-left: 6vw;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(6, 56, 56);
+  text-align: left;
+}
+
+.bodyTextButtonRibbon{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  background-color: aliceblue;
+}
+
+
+
+.bodyColumnTwo{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgba(240, 248, 255, 0.735);
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.secondColumnPhotoDisplay{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portraitPhoto{
+  display: flex;
+  width: 17vw;
+  
+  align-items: center;
+  
+}
+
+.secondColumnBuffer{
+  display: flex;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.735);
+  flex: 8;
+}
+
+.secondColumnPhoto{
+  display: flex;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.735);
+  flex: 9;
+}
+
+.secondColumnBottom{
+  display: flex;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.735);
+  flex: 16;
+}
+
+.bottomRow{
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  flex-direction: row;
+}
+
+.linkedlinLogo{
+  display: flex;
+  height: 15%;
+  width: 15%;
+}
+
+.bottomOneContainer{
+  flex: 1;
+  height: 100%;
+}
+
+.bottomTwoContainer{
+  flex: 1;
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.bottomTwoOneContainer{
+  flex:1;
+  height: 100%;
+  background-color: none;
+}
+
+.bottomTwoTwoContainer{
+  flex:1;
+  height: 100%;
+  background-color: none;
+}
+
+.bottomTwoThreeContainer{
+  flex:1;
+  height: 100%;
+  background-color: none;
+}
+
+.bottomThreeContainer{
+  flex: 1;
+  height: 100%;
+}
+
+.linkedinContainer{
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.linkedinLogo{
+  width: 2vw;
+  aspect-ratio: 12 / 13;
+}
+
+.emailContainer{
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.emailLogo{
+  width:2.2vw;
+  aspect-ratio: 14 / 13;
+}
+
+.githubContainer{
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.githubLogo{
+  width: 4vw;
+  aspect-ratio: 11 / 12;
+}
+
+.loadBearing{
+  color: rgba(240, 248, 255, 0.735);
+}
+
+.ctaPortfolioButton{
+    border: 0.15vw solid #004d4d;
+    background-color: #004d4d;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ctaPortfolioButton:hover{
+  color: rgb(17, 247, 247);
+}
+
+.ctaPortfolioButton:active{
+  color: rgb(16, 156, 156);
+}
+
+.resumeDownloadButton{
+  border: 0.15vw solid #004d4d;
+  color: #004d4d;
+  padding: 0.75rem 1.5rem; 
+  border-radius: 0.25vw;
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.resumeDownloadButton:hover{
+  color: rgb(17, 247, 247);
+  
+}
+
+.resumeDownloadButton:active{
+  color: rgb(16, 156, 156);
+}

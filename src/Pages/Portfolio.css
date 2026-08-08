@@ -1,0 +1,290 @@
+
+.globalBackground{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.topRow{
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  background-color: rgb(16, 156, 156);
+}
+
+.topOne{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  align-items: center;
+  justify-content: center;
+}
+
+.topOneOneContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nameText{
+  color: aliceblue;
+  text-shadow: 0 0 10px white;
+  font-size: 1.5vw;
+  font-style: italic;
+  font-family:Helvetica;
+  user-select: none;
+}
+
+.nameText:hover{
+  color:rgb(22, 197, 197);
+  text-shadow: 0 0 10px rgb(17, 247, 247);
+}
+
+
+.topOneTwoContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.topOneThreeContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.topTwo{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
+
+.topThree{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: aliceblue;
+  justify-content: flex-end;
+}
+
+.topThreeOneContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+ 
+}
+
+.homeText{
+  text-decoration: none;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  user-select: none;
+}
+
+.homeText:hover{
+  color:rgb(22, 197, 197);
+}
+
+.topThreeTwoContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
+
+
+.aboutText{
+  text-decoration: none;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  user-select: none;
+}
+
+.aboutText:hover{
+  color:rgb(22, 197, 197);
+}
+
+.topThreeThreeContainer{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
+
+.portfolioText{
+  text-decoration: none;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  user-select: none;
+}
+
+.portfolioText:hover{
+  color:rgb(22, 197, 197);
+}
+
+
+.topFour{
+  display: flex;
+  height: 100%;
+  
+}
+
+.bodyRow{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex: 6;
+  background-color: rgb(6, 56, 56);
+}
+
+.bodyColumnOne{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 2;
+  background-color: rgb(6, 56, 56);
+}
+
+.bodyColumnOneOneContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  
+  background-color: rgb(6, 56, 56);
+  padding-left: 6vw;
+}
+
+.bodyColumnOneTitleContainer{
+  display: flex;
+  width: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  align-items: flex-end;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  flex-direction: row;
+}
+
+.leftTitleContainer{
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
+
+.rightTitleContainer{
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
+
+
+.bodyColumnOneTextContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+ 
+
+}
+
+.languageSubtitles{
+  font-size: 0.75vw;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.projectText{
+  font-size: 0.75vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.gitHubLink{
+  
+  text-decoration: none;
+  border: 0.1vw solid aliceblue;
+  border-radius: 15%;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  padding-right:2%;
+  padding-left:2%;
+  padding-bottom: none;
+  padding-top: none;
+}
+
+.gitHubLink:hover{
+  text-decoration: none;
+  border: 0.1vw solid rgb(22, 197, 197);
+  border-radius: 15%;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(22, 197, 197);
+  padding-right:2%;
+  padding-left:2%;
+  padding-bottom: none;
+  padding-top: none;
+}
+
+.bodyColumnOneTwoContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  text-align: left;
+  
+  background-color: rgb(6, 56, 56);
+  padding-left: 6vw;
+}
+
+.bodyColumnOneThreeContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  
+  background-color: rgb(6, 56, 56);
+  padding-left: 6vw;
+}
+
+
+.bodyColumnTwo{
+  display: flex;
+  height: 100%;
+  flex: 1;
+  background-color: rgba(240, 248, 255, 0.735);
+}
+
+.bottomRow{
+  display: flex;
+  width: 100vw;
+  flex: 1;
+  background-color: rgb(6, 56, 56);
+}
