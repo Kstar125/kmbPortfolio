@@ -150,24 +150,25 @@
   flex-direction: row;
   width: 100vw;
   flex: 6;
-  background-color: rgb(6, 56, 56);
+  background-color: rgba(240, 248, 255, 0.735);
 }
 
 .bodyColumnOne{
   display: flex;
   flex-direction: column;
   height: 100%;
-  flex: 2;
-  background-color: rgb(6, 56, 56);
+  flex: 3;
+  background-color: aliceblue;
 }
 
 .bodyColumnOneOneContainer{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  flex: 1;
+  flex: 3;
   
-  background-color: rgb(6, 56, 56);
+  background-color: aliceblue;
   padding-left: 6vw;
 }
 
@@ -175,65 +176,73 @@
   display: flex;
   width: 100%;
   flex: 1;
-  background-color: rgb(6, 56, 56);
-  align-items: flex-end;
+  background-color: rgba(240, 248, 255, 0.735);
+
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
-  color: aliceblue;
+  color: rgb(6, 56, 56);
   flex-direction: row;
+}
+
+.bodyColumnBuffer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1
 }
 
 .leftTitleContainer{
   display: flex;
-  align-items: flex-end;
+  
   height: 100%;
   flex: 1;
-  background-color: rgb(6, 56, 56);
+  background-color: aliceblue;
 }
 
 .rightTitleContainer{
   display: flex;
-  align-items: flex-end;
+  
   height: 100%;
   flex: 1;
-  background-color: rgb(6, 56, 56);
+  background-color: aliceblue;
 }
 
 
 .bodyColumnOneTextContainer{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  
   width: 100%;
-  flex: 1;
-  background-color: rgb(6, 56, 56);
+  flex: 4;
+  background-color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
  
 
 }
 
+
 .languageSubtitles{
   font-size: 0.75vw;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  color: aliceblue;
+  color: rgb(6, 56, 56);
 }
 
 .projectText{
   font-size: 0.75vw;
   font-family: Arial, Helvetica, sans-serif;
-  color: aliceblue;
+  color: rgb(6, 56, 56);
 }
 
 .gitHubLink{
   
   text-decoration: none;
-  border: 0.1vw solid aliceblue;
+  border: none;
   border-radius: 15%;
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
-  color: aliceblue;
+  color: rgb(6, 56, 56);
   padding-right:2%;
   padding-left:2%;
   padding-bottom: none;
@@ -242,7 +251,7 @@
 
 .gitHubLink:hover{
   text-decoration: none;
-  border: 0.1vw solid rgb(22, 197, 197);
+  border: none;
   border-radius: 15%;
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
@@ -253,34 +262,25 @@
   padding-top: none;
 }
 
-.bodyColumnOneTwoContainer{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  flex: 1;
-  text-align: left;
-  
-  background-color: rgb(6, 56, 56);
-  padding-left: 6vw;
-}
-
-.bodyColumnOneThreeContainer{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  flex: 1;
-  
-  background-color: rgb(6, 56, 56);
-  padding-left: 6vw;
-}
-
-
 .bodyColumnTwo{
   display: flex;
   height: 100%;
-  flex: 1;
-  background-color: rgba(240, 248, 255, 0.735);
+  flex: 1.5; /* 1.5 in-line with TopThreeOne Container */
+  background-color: aliceblue;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  
 }
+
+.portfolioPhoto{
+  display: flex;
+  width: 19vw;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 
 .bottomRow{
   display: flex;

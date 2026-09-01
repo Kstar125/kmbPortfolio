@@ -1,8 +1,20 @@
-import './About.css';
+import './Resume.css'
 import MenuButton from '../Components/MenuButton';
 import EmailLink from '../Components/EmailLink';
+import BinaryToggleButton from '../Components/BinaryToggleButton';
+import DynamicTitle from '../Components/DynamicTitle';
+import { useState } from 'react';
 
-function About() {
+
+function Resume() {
+  let [dynamResumeCVTitleToggle, setDynamResumeCVTitleToggle] = useState(0)
+
+  function toggleDynamicTitle(){
+    setDynamResumeCVTitleToggle(dynamResumeCVTitleToggle === 0 ? 1 : 0)
+    console.log(dynamResumeCVTitleToggle)
+  }
+  
+
   return <div> 
 
     <div className = 'globalBackground'>
@@ -57,57 +69,49 @@ function About() {
         </div>
 
 
-        <div className = 'bodyRow'>
+      <div className = 'bodyRow'>
 
-          <div className = 'bodyColumnOne'>
+          <div className = 'bodyLeft'>
 
-            <div className = 'bodyTitleContainer'>
+            <div className = 'leftLeftContainer' />
 
-              <div className = 'bufferContainer'>
+            <div className = 'leftCenterContainer'>
+              
+              <div className = 'leftCenterTopContainer' />
+              
+              <div className = 'leftCenterCenterContainer'> 
 
-              </div>
+                <div className = 'dynamBtnFrame' onClick = {() => toggleDynamicTitle()}>
 
-              <div className = 'titleNameTextContainer'>
-                <b>Test 1</b>
-              </div>
-
-              <div className = 'subtitleNameTextContainer'>
-                <b><i>Computational Linguist</i></b>
-              </div>
-
-            </div>
-
-            <div className = 'bodyTextContainer'>
-
-              <div className = 'bodyTextBarrier'>
-
-              </div>
-
-              <div className = 'bodyTextActual'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-
-              <div className = 'bodyTextButtonRibbon'>
+                  <BinaryToggleButton display = {`Display ${dynamResumeCVTitleToggle === 1 ? 'Resumé':'CV'}`} onClick = {() => toggleDynamicTitle()}  />
                 
-              </div>
-
-              <div className = 'bodyTextBottomBuffer'>
+                </div>
 
               </div>
 
+              <div className = 'leftCenterBottomContainer' />
 
             </div>
+            
+            <div className = 'leftRightContainer' />
 
+            
+            
+          </div>
+              
+          <div className = 'bodyCentral'>
+            <div className = 'resumeCVTitleBox'>
+              <DynamicTitle toggle = {dynamResumeCVTitleToggle} />
+            </div>
+
+            <div className = 'resumeCVTextBox'>
+
+            </div>
           </div>
 
+          <div className = 'bodyRight' />
 
-          <div className = 'bodyColumnTwo'>
-
-          </div>
-
-        </div>
+      </div>
       
       <div className = 'bottomRow'>
           
@@ -156,4 +160,4 @@ function About() {
     </div>;
 }
 
-export default About;
+export default Resume;

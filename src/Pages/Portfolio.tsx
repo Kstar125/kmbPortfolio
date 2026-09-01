@@ -1,7 +1,32 @@
 import './Portfolio.css';
 import MenuButton from '../Components/MenuButton';
+import EmailLink from '../Components/EmailLink';
+import { useState } from 'react';
 
-function Portfolio() {
+
+function Portfolio(){
+
+  let [imageState, setImageState] = useState(0)
+
+  let [imageURL, setImageURL] = useState("/coherenceMetric.png")
+
+  function imageUpdate(input: number): void {
+    setImageState(imageState = input)
+    console.log(imageState)
+
+    if(imageState === 0){
+      setImageURL(imageURL = "/coherenceMetric.png")
+    }
+    else if(imageState === 1){
+      setImageURL(imageURL = "/cognateMetric.png")
+    }
+    else if(imageState === 2){
+      setImageURL(imageURL = "/hedging.png")
+    }
+  }
+
+
+
   return <div> 
 
   <div className = 'globalBackground'>
@@ -27,6 +52,7 @@ function Portfolio() {
           </div>
 
           <div className = 'topThree'>
+
             <div className = 'topThreeOneContainer'>
             
               <MenuButton items = {["Home"]} />
@@ -47,7 +73,7 @@ function Portfolio() {
 
             <div className= 'topThreeFourContainer'>
               
-              <MenuButton items = {["Research"]} />
+              <MenuButton items = {["Resumé | CV"]} />
           
             </div>
 
@@ -58,29 +84,30 @@ function Portfolio() {
         <div className = 'bodyRow'>
 
           <div className = 'bodyColumnOne'>
-            <div className = 'bodyColumnOneOneContainer'>
+
+            <div className = 'bodyColumnBuffer' />
+
+            <div className = 'bodyColumnOneOneContainer' onMouseEnter={() => {imageUpdate(0)}}>
               <div className = 'bodyColumnOneTitleContainer'>
                 <div className = 'leftTitleContainer'>
-                  <b>Quantitative Discourse Coherence</b>
+                  <b>LLM-Metrics of Discourse Coherence</b>
                 </div>
 
                 <div className = 'rightTitleContainer'>
-                  <a href = 'https://github.com/Kstar125' className = 'gitHubLink'><i><b>GitHub</b></i></a>
+                  <a href = 'https://github.com/Kstar125/discourseCoherenceMetrics' className = 'gitHubLink'><i><b>GitHub</b></i></a>
                 </div>
               </div>
 
               <div className = 'bodyColumnOneTextContainer'>
-                <p className = 'languageSubtitles'>Python, R, MySQL.</p>
+                <p className = 'languageSubtitles'>Python (Scikit-Learn, Pandas, Numpy, HuggingFace), R.</p>
                
-                <p className = 'projectText'>Quantitative metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics implemented follownig a similarity-based and distance-based approach.
-                <br />
-                Novel metrics exceed prior benchmark.
+                <p className = 'projectText'>Quantitative coherence metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics benchmark coherent narrative contiuations 5% more <br /> accurately than prior computational approaches.
+              
                 </p>
               </div>
             </div>
-
-
-            <div className = 'bodyColumnOneThreeContainer'>
+            
+            <div className = 'bodyColumnOneOneContainer' onMouseEnter={() => {imageUpdate(1)}}>
            
               <div className = 'bodyColumnOneTitleContainer'>
                 <div className = 'leftTitleContainer'>
@@ -94,7 +121,7 @@ function Portfolio() {
               </div>
 
               <div className = 'bodyColumnOneTextContainer'>
-                <p className = 'languageSubtitles'>JavaScript (Node, React), CSS, HTML.</p>
+                <p className = 'languageSubtitles'>JavaScript (Node, React.js), CSS, HTML.</p>
                
                 <p className = 'projectText'>Quantitative metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics implemented follownig a similarity-based and distance-based approach.
                 <br />
@@ -103,15 +130,88 @@ function Portfolio() {
               </div>
             </div>
 
+            <div className = 'bodyColumnOneOneContainer'  onMouseEnter={() => {imageUpdate(2)}}>
+           
+              <div className = 'bodyColumnOneTitleContainer'>
+                <div className = 'leftTitleContainer'>
+                  <b>Statistical Analyses of Hedging as Politeness Strategy</b>
+                </div>
+
+                <div className = 'rightTitleContainer'>
+                  <a href = 'https://github.com/Kstar125/hedgingAsPolitenessStrategy' className = 'gitHubLink'><i><b>GitHub</b></i></a>
+                </div>
+                
+              </div>
+
+              <div className = 'bodyColumnOneTextContainer'>
+                <p className = 'languageSubtitles'>Python (Numpy, Pandas, Spacy, StatsModels).</p>
+               
+                <p className = 'projectText'>Quantitative metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics implemented follownig a similarity-based and distance-based approach.
+                <br />
+                Novel metrics exceed prior benchmark.
+                </p>
+              </div>
+            </div>
+
+            
+
           </div>
 
           <div className = 'bodyColumnTwo'>
+            <div className = 'secondColumnBuffer'>
+      
+             
 
+            </div>
+            <div className = "secondColumnPhoto">
+              <div className = 'secondColumnPhotoDisplay'>
+              <img src = {imageURL} className = 'portfolioPhoto'/>
+              </div>
+            </div>
+
+            <div className = 'secondColumnBottom'>
+
+            </div>
           </div>
 
         </div>
 
         <div className = 'bottomRow'>
+          <div className = 'bottomOneContainer' />
+
+          <div className = 'bottomTwoContainer'>
+
+            <div className = 'bottomTwoOneContainer'> 
+              
+              <div className = 'githubContainer'>
+                <a href = "https://github.com/Kstar125">
+                  <img src = "src\Images\github.webp" className = 'githubLogo' />
+                </a>
+              </div>
+
+            </div>    
+              
+            <div className = 'bottomTwoTwoContainer'>
+              <div className = 'emailContainer'>
+                <EmailLink />
+              </div>
+            </div>
+
+            <div className = 'bottomTwoThreeContainer'>
+              
+              <div className = 'linkedinContainer'>
+                <a href = "https://www.linkedin.com/in/koreymb/">
+                  <img src = "src\Images\linkedin.png" className = 'linkedinLogo' />
+                </a>
+                
+              </div>
+              
+            </div>
+          
+          </div>
+        
+          
+          <div className = 'bottomThreeContainer' />
           
         </div>
 

@@ -209,15 +209,14 @@
   display: flex;
   width: 100%;
   flex: 1;
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.735);
 }
-
 
 
 .bodyColumnTwo{
   display: flex;
   height: 100%;
-  flex: 1;
+  flex: 1.5; /* 1.5 in-line with TopThreeOne Container */
   background-color: rgba(240, 248, 255, 0.735);
   flex-direction: column;
   justify-content: center; 
@@ -229,13 +228,14 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
 
 .portraitPhoto{
   display: flex;
   width: 17vw;
-  
+  justify-content: center;
   align-items: center;
   
 }
@@ -244,7 +244,7 @@
   display: flex;
   width: 100%;
   background-color: rgba(240, 248, 255, 0.735);
-  flex: 8;
+  flex: 7.3;
 }
 
 .secondColumnPhoto{

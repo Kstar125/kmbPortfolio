@@ -53,7 +53,7 @@ function Home() {
 
             <div className= 'topThreeFourContainer'>
               
-              <MenuButton items = {["Research"]} />
+              <MenuButton items = {["Resumé | CV"]} />
           
             </div>
 
@@ -89,10 +89,10 @@ function Home() {
                   <li><strong>•  Education:</strong> University of Toronto Master’s in Linguistics - Computational Focus</li>
                   <li><strong>•  Expertise:</strong> Computational Linguistics & Machine Learning</li>
                   <li><strong>•  Experience:</strong> 2+ years deriving insights from (un)structured data</li>
-                  <li><strong>•  Research:</strong> Developed Novel LLM Benchmarks @ UofT</li>
+                  <li><strong>•  Research:</strong> Developed LLM benchmarks for evaluating language-model performance at UofT</li>
                   <li><strong>•  Impact:</strong> Technical and Analytical roles at Rotman Research Institute & Nokia</li>
                   <li className = 'loadBearing'>`</li>
-                  <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/public/resumeKMB.pdf" className = "resumeDownloadButton">Download Resume</a></li>
+                  <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/public/resumeKMB.pdf" className = "resumeDownloadButton">Download Resumé</a></li>
 
                 </ul>
 
