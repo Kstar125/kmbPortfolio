@@ -2,6 +2,7 @@ import './Resume.css'
 import MenuButton from '../Components/MenuButton';
 import EmailLink from '../Components/EmailLink';
 import BinaryToggleButton from '../Components/BinaryToggleButton';
+import BinaryDownloadButton from '../Components/BinaryDownloadButton';
 import DynamicTitle from '../Components/DynamicTitle';
 import DynamicText from '../Components/DynamicText'
 import { useState } from 'react';
@@ -13,6 +14,31 @@ function Resume() {
   function toggleDynamicTitle(){
     setDynamResumeCVTitleToggle(dynamResumeCVTitleToggle === 0 ? 1 : 0)
     //console.log(dynamResumeCVTitleToggle)
+  }
+
+  function toggleDynamicDownload(){
+
+    const a = document.createElement('a');
+  
+    if(dynamResumeCVTitleToggle === 0){
+      a.href = "/resumeKMB.pdf"
+      a.download = "/resumeKMB.pdf"
+    }
+    
+    if(dynamResumeCVTitleToggle === 1){
+      a.href = "/cvKMB.pdf";
+      a.download = "/cvKMB.pdf"
+    }
+    // 3. Append to the DOM (required for cross-browser compatibility)
+    document.body.appendChild(a);
+  
+    // 4. Programmatically simulate a click
+    a.click();
+  
+  // 5. Clean up by removing the element from the DOM
+    document.body.removeChild(a);
+
+
   }
   
 
@@ -95,8 +121,6 @@ function Resume() {
             </div>
             
             <div className = 'leftRightContainer' />
-
-            
             
           </div>
               
@@ -110,7 +134,32 @@ function Resume() {
             </div>
           </div>
 
-          <div className = 'bodyRight' />
+
+          <div className = 'bodyRight'>
+
+            <div className = 'rightLeftContainer' />
+
+            <div className = 'rightCenterContainer'>
+              
+              <div className = 'rightCenterTopContainer' />
+              
+              <div className = 'rightCenterCenterContainer'> 
+
+                <div className = 'dynamDownloadBtnFrame' onClick = {() => toggleDynamicDownload()}>
+
+                  <BinaryDownloadButton toggleNum = {dynamResumeCVTitleToggle} />
+                
+                </div>
+
+              </div>
+
+              <div className = 'rightCenterBottomContainer' />
+
+            </div>
+            
+            <div className = 'rightRightContainer' />
+            
+          </div>
 
       </div>
       
