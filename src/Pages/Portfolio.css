@@ -275,12 +275,26 @@
 
 .portfolioPhoto{
   display: flex;
-  width: 19vw;
+  width: 22vw;
   justify-content: center;
   align-items: center;
   
 }
 
+.secondColumnBufferPortfolio{
+  display: flex;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.735);
+  flex: 7;
+}
+
+
+.secondColumnBottomPortfolio{
+  display: flex;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.735);
+  flex: 9;
+}
 
 .bottomRow{
   display: flex;

@@ -3,6 +3,7 @@ import MenuButton from '../Components/MenuButton';
 import EmailLink from '../Components/EmailLink';
 import BinaryToggleButton from '../Components/BinaryToggleButton';
 import DynamicTitle from '../Components/DynamicTitle';
+import DynamicText from '../Components/DynamicText'
 import { useState } from 'react';
 
 
@@ -11,7 +12,7 @@ function Resume() {
 
   function toggleDynamicTitle(){
     setDynamResumeCVTitleToggle(dynamResumeCVTitleToggle === 0 ? 1 : 0)
-    console.log(dynamResumeCVTitleToggle)
+    //console.log(dynamResumeCVTitleToggle)
   }
   
 
@@ -105,7 +106,7 @@ function Resume() {
             </div>
 
             <div className = 'resumeCVTextBox'>
-
+              <DynamicText toggle = {dynamResumeCVTitleToggle} />
             </div>
           </div>
 

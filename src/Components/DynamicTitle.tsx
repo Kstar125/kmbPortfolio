@@ -17,7 +17,7 @@ function DynamicTitle({toggle}: DynamicTitleProps ) {
         titleText = "Resumé";
     }
     else{
-        titleText = "CV";
+        titleText = "Curriculum Vitae";
     }
     
     return(

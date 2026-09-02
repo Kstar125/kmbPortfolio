@@ -12,7 +12,7 @@ function Portfolio(){
 
   function imageUpdate(input: number): void {
     setImageState(imageState = input)
-    console.log(imageState)
+    //console.log(imageState)
 
     if(imageState === 0){
       setImageURL(imageURL = "/coherenceMetric.png")
@@ -101,9 +101,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Python (Scikit-Learn, Pandas, Numpy, HuggingFace), R.</p>
                
-                <p className = 'projectText'>Quantitative coherence metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics benchmark coherent narrative contiuations 5% more <br /> accurately than prior computational approaches.
-              
-                </p>
+                <p className = 'projectText'>Quantitative coherence metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics benchmark coherent narrative contiuations 5% more <br /> accurately than prior computational approaches. Novel metrics leverage cosine similarities between embeddings and Eucliedan distance metrics (see image on right) to<br /> indicate coherent continuations.</p>
               </div>
             </div>
             
@@ -121,12 +119,9 @@ function Portfolio(){
               </div>
 
               <div className = 'bodyColumnOneTextContainer'>
-                <p className = 'languageSubtitles'>JavaScript (Node, React.js), CSS, HTML.</p>
+                <p className = 'languageSubtitles'>Firebase, JavaScript (Node.js, React), CSS, HTML.</p>
                
-                <p className = 'projectText'>Quantitative metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics implemented follownig a similarity-based and distance-based approach.
-                <br />
-                Novel metrics exceed prior benchmark.
-                </p>
+                <p className = 'projectText'>Lexical decision task implemented to collect response times and word identification accuracy using Google Firebase, JavaScript libraries including Node.js and <br /> React. Results collected uphold the cognate facilitation hypothesis between English and Slavic Languages for English-speaking monolinguals.</p>
               </div>
             </div>
 
@@ -146,10 +141,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Python (Numpy, Pandas, Spacy, StatsModels).</p>
                
-                <p className = 'projectText'>Quantitative metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics implemented follownig a similarity-based and distance-based approach.
-                <br />
-                Novel metrics exceed prior benchmark.
-                </p>
+                <p className = 'projectText'>Reddit corpus data pre-processed and analyzed to identify differences in word usage during hedging during conversations between age and gender categories. Logistic <br /> regression implemented through Python statistical libraries indicate significant differences in terms of age and gender.</p>
               </div>
             </div>
 
@@ -158,7 +150,7 @@ function Portfolio(){
           </div>
 
           <div className = 'bodyColumnTwo'>
-            <div className = 'secondColumnBuffer'>
+            <div className = 'secondColumnBufferPortfolio'>
       
              
 
@@ -169,7 +161,7 @@ function Portfolio(){
               </div>
             </div>
 
-            <div className = 'secondColumnBottom'>
+            <div className = 'secondColumnBottomPortfolio'>
 
             </div>
           </div>
