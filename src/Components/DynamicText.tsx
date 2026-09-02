@@ -104,7 +104,7 @@ function DynamicTitle({toggle}: DynamicTextProps ) {
                     <p className = "resumeText">Lab Manager | Research Assistant Sept. 2023 - May 2024<br />Rotman Research Institute, Toronto, ON<br />
                     • Developed teamworking skills to manage the recruitment and onboarding of participants for over 50 MEG, EEG, dTMS, and fMRI study sessions.<br />
                     • Improved teaching skills by creating documentation and teaching lab members how to utilize Compute Canada, Digital Research Alliance of Canada high-performance computing resources.<br />
-                    • Developed achine learning and programming skills to collaborate with lab members and implement neural networks, including supervised learning algorithms to classify images, represent feature activations, and test neurological hypotheses.
+                    • Developed machine learning and programming skills to collaborate with lab members and implement neural networks, including supervised learning algorithms to classify images, represent feature activations, and test neurological hypotheses.
                     </p>
 
                     <p className = "resumeText">Undergraduate Researcher Sept. 2022 - March 2023<br /> University of Toronto, Toronto, ON<br/>
@@ -122,7 +122,7 @@ function DynamicTitle({toggle}: DynamicTextProps ) {
 
                     <p className = "resumeText">Workshop Facilitator  Aug. 2024 – Sept. 2024<br />Introduction to High-Performance Computing. Rotman Research Institute, Toronto, ON<br/>
                     • Instructed research trainees on how to utilize Compute Canada’s High-Performance Computing systems, including how to open an account, schedule jobs, and utilize clusters and computational resources for research purposes.<br />
-                    • Develoepd teaching skills by communicating technical overviews of various computational clusters and interdisciplinary research methodologies.<br />
+                    • Developed teaching skills by communicating technical overviews of various computational clusters and interdisciplinary research methodologies.<br />
                     • Improved communication skills related to summarising technical and research-related information in an academic setting to ensure that trainees can effectively learn how to utilize modern research resources.
                     </p>
 
