@@ -61,14 +61,14 @@ function About() {
 
           <div className = 'bodyColumnOne'>
 
-            <div className = 'bodyTitleContainer'>
+            <div className = 'bodyTitleAboutContainer'>
 
-              <div className = 'bufferContainer'>
+              <div className = 'bufferAboutContainer'>
 
               </div>
 
               <div className = 'titleNameTextContainer'>
-                <b>Test 1</b>
+                <b>About Me</b>
               </div>
 
               <div className = 'subtitleNameTextContainer'>
@@ -79,23 +79,15 @@ function About() {
 
             <div className = 'bodyTextContainer'>
 
-              <div className = 'bodyTextBarrier'>
+              <div className = 'bodyTextBarrier'></div>
 
+              <div className = "bodyTextActualAbout">
+              <span>I'm an MA graduate from UofT, specializing in linguistics and artificial intelligence. I apply computational approaches (such as NLP and machine learning) to questions examining <a href = "https://github.com/Kstar125/engSlaLexicalDecisionTask" className = "aboutMeLink">human communication</a> and <a href="https://github.com/Kstar125/discourseCoherenceMetrics" className = "aboutMeLink">how well machines can do this, too.</a> I aim to take what I've learned from my research and prior work at the Rotman Research Institute and Nokia, and apply these methods to derive data-driven insights for novel industry projects. Otherwise, in my free time I enjoy writing and fencing.<br/><br/> If anything above sounds interesting to you, feel free to connect <a href = "https://www.linkedin.com/in/koreymb/" className = "aboutMeLink">here</a>.</span>
               </div>
 
-              <div className = 'bodyTextActual'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
+              <div className = 'bodyTextButtonRibbon'></div>
 
-              <div className = 'bodyTextButtonRibbon'>
-                
-              </div>
-
-              <div className = 'bodyTextBottomBuffer'>
-
-              </div>
+              <div className = 'bodyTextBottomBuffer'></div>
 
 
             </div>
@@ -104,7 +96,18 @@ function About() {
 
 
           <div className = 'bodyColumnTwo'>
+            <div className = 'secondColumnBuffer'>
+      
+             
 
+            </div>
+            <div className = "secondColumnPhoto">
+              <div className = 'secondColumnPhotoDisplay'>
+              <img src = "aboutMe.png" className = 'aboutPhoto'/>
+              </div>
+            </div>
+
+            <div className = 'secondColumnBottom'></div>
           </div>
 
         </div>

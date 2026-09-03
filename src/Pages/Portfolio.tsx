@@ -141,7 +141,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Python (Numpy, Pandas, Spacy, StatsModels).</p>
                
-                <p className = 'projectText'>Reddit corpus data pre-processed and analyzed to identify differences in word usage during hedging during conversations between age and gender categories. Logistic <br /> regression implemented through Python statistical libraries indicate significant differences in terms of age and gender.</p>
+                <p className = 'projectText'>Reddit corpus data pre-processed and analyzed to identify differences in word usage during hedging in conversations between age and gender categories. Logistic <br /> regression implemented through Python statistical libraries indicate significant differences in terms of age and gender.</p>
               </div>
             </div>
 

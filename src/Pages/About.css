@@ -164,20 +164,20 @@
   background-color: rgba(240, 248, 255, 0.735);
 }
 
-.bodyTitleContainer{
+.bodyTitleAboutContainer{
   display: flex;
   flex-direction: column;
   width: 100%;
-  flex: 2;
+  flex: 3;
   background-color: rgba(240, 248, 255, 0.735);
   
 }
 
-.bufferContainer{
+.bufferAboutContainer{
   display: flex;
-  flex: 1;
+  flex: 2;
   width: 100%;
-  background-color: rgba(240, 248, 255, 0.735);
+  background-color: none;
 }
 
 .titleNameTextContainer{
@@ -228,6 +228,24 @@
   justify-content: center; 
   align-items: center;
   
+}
+
+.bodyTextActualAbout{
+  display: flex;
+  padding-left: 6vw;
+  flex: 14;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  background-color: none;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.aboutMeLink{
+  color:black;
 }
 
 
@@ -315,4 +333,12 @@
 .githubLogo{
   width: 2vw;
   aspect-ratio: 11 / 12;
+}
+
+.aboutPhoto{
+  display: flex;
+  width: 24vw;
+  justify-content: center;
+  align-items: center;
+  
 }
