@@ -92,7 +92,7 @@ function Home() {
                   <li><strong>•  Research:</strong> Developed LLM benchmarks for evaluating language-model performance at UofT</li>
                   <li><strong>•  Impact:</strong> Technical and Analytical roles at Rotman Research Institute & Nokia</li>
                   <li className = 'loadBearing'>`</li>
-                  <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/public/resumeKMB.pdf" className = "resumeDownloadButton">Download Resumé</a></li>
+                  <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/resumeKMB.pdf" className = "resumeDownloadButton">Download Resumé</a></li>
 
                 </ul>
 
@@ -121,7 +121,7 @@ function Home() {
             </div>
             <div className = "secondColumnPhoto">
               <div className = 'secondColumnPhotoDisplay'>
-              <img src = "src\Images\portrait.jpg" className = 'portraitPhoto'/>
+              <img src = "/portrait.jpg" className = 'portraitPhoto'/>
               </div>
             </div>
 
@@ -141,7 +141,7 @@ function Home() {
               
               <div className = 'githubContainer'>
                 <a href = "https://github.com/Kstar125">
-                  <img src = "src\Images\github.webp" className = 'githubLogo' />
+                  <img src = "/github.webp" className = 'githubLogo' />
                 </a>
               </div>
 
@@ -157,7 +157,7 @@ function Home() {
               
               <div className = 'linkedinContainer'>
                 <a href = "https://www.linkedin.com/in/koreymb/">
-                  <img src = "src\Images\linkedin.png" className = 'linkedinLogo' />
+                  <img src = "/linkedin.png" className = 'linkedinLogo' />
                 </a>
                 
               </div>

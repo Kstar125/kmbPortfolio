@@ -17,7 +17,7 @@ function EmailLink() {
 
   return (
     <a href="mailto:Korey Miller-Boyle" onClick={handleClick}>
-        <img src = "src\Images\email.webp" className = 'emailLogo' />
+        <img src = "/email.webp" className = 'emailLogo' />
     </a>
   );
 }

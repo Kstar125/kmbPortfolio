@@ -147,7 +147,7 @@
 
 .bodyRow{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   flex: 6;
   background-color: rgba(240, 248, 255, 0.735);

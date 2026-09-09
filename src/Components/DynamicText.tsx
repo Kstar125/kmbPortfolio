@@ -18,12 +18,12 @@ function DynamicTitle({toggle}: DynamicTextProps ) {
         return(
             <div className = "resumeBlock">
                 <p className = "resumeSubtitleText">Profile</p>
-                <p className = "resumeText">University of Toronto Master's graduate who studied artificial intelligence and linguistics. Possess 1+ years of experience building <br/>ML data pipelines and using LLMs to deliver insights from structured and unstructured datasets, including as a Lab Manager and <br/>through graduate-level studies. Experienced in using machine learning libraries in Python such as TensorFlow and communicating <br/>results generated from ML workflow analyses in interdisciplinary settings. Seeking to apply machine learning skills to produce <br/>scalable results that match community needs.</p>
+                <p className = "resumeText">University of Toronto Master's graduate who studied artificial intelligence and linguistics. Possess 2+ years of experience building <br/>ML data pipelines and using LLMs to deliver insights from structured and unstructured datasets, including as a Lab Manager and <br/>through graduate-level studies. Experienced in using machine learning libraries in Python such as TensorFlow and communicating <br/>results generated from ML workflow analyses in interdisciplinary settings. Seeking to apply machine learning skills to produce <br/>scalable results that match community needs.</p>
                 
                 <p className = "resumeSubtitleText">Skills</p>
                 <table className = "resumeTable">
                     <tr className = "tableRow">
-                        <td className = "leftCell"><p className = "resumeText">• <b>Programming:</b> Python, JavaScript, TypeScript, C, R.<br />• <b>Artificial Intelligence:</b> Machine Learning, HuggingFace, TensorFlow, TensorBoard, Keras.<br />• <b>Database Management, Cloud Computing:</b> Google Firebase, NoSQL.<br />• <b>Data Analysis:</b> Pandas, Numpy, Matplotlib, Sklearn, Tidyverse.<br /> • <b>Professional:</b> Microsoft Office (Excel, PowerPoint), Technical Editing & Writing, Teamwork, Leadership, <br/>Project Management, Jira, Google Gemini.</p></td>
+                        <td className = "leftCell"><p className = "resumeText">• <b>Programming:</b> Python, JavaScript, TypeScript, C, R.<br />• <b>Artificial Intelligence:</b> Machine Learning, HuggingFace, TensorFlow, TensorBoard, Keras.<br />• <b>Database Management, Cloud Computing:</b> Google Firebase, SQL, NoSQL.<br />• <b>Data Analysis:</b> Pandas, Numpy, Matplotlib, Sklearn, Tidyverse.<br /> • <b>Professional:</b> Microsoft Office (Excel, PowerPoint), Technical Editing & Writing, Teamwork, Leadership, Project Management, Jira, Google Gemini.</p></td>
                         <td className = "rightCell"></td>
                     </tr>
                 </table>

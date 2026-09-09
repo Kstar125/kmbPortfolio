@@ -177,7 +177,7 @@ function Portfolio(){
               
               <div className = 'githubContainer'>
                 <a href = "https://github.com/Kstar125">
-                  <img src = "src\Images\github.webp" className = 'githubLogo' />
+                  <img src = "/github.webp" className = 'githubLogo' />
                 </a>
               </div>
 
@@ -193,7 +193,7 @@ function Portfolio(){
               
               <div className = 'linkedinContainer'>
                 <a href = "https://www.linkedin.com/in/koreymb/">
-                  <img src = "src\Images\linkedin.png" className = 'linkedinLogo' />
+                  <img src = "/linkedin.png" className = 'linkedinLogo' />
                 </a>
                 
               </div>
