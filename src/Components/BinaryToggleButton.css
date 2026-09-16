@@ -1,4 +1,3 @@
-
 .binaryToggleBtn{
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
@@ -11,9 +10,47 @@
 .binaryToggleBtn:hover{
     
     user-select: none;
+    color: rgb(22, 197, 197) !important;
 }
 
 .binaryToggleBtn:active{
     
     user-select: none;
+    color: rgb(16, 156, 156) !important;
+}
+
+
+@media screen and (max-width: 884px) {
+
+  .binaryToggleBtn,
+  .binaryToggleBtn * {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+    line-height: 44px !important; 
+    
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem !important;
+    color: white !important; 
+  }
+
+    .binaryToggleBtn:hover{
+    
+    user-select: none;
+    color: rgb(22, 197, 197) !important;
+    }
+
+    .binaryToggleBtn:active{
+    
+    user-select: none;
+    color: rgb(16, 156, 156) !important;
+    }
 }

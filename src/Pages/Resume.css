@@ -175,3 +175,224 @@
 .resumeTable{
     width: 100%;
 }
+
+/* ==========================================================================
+   Mobile-Friendly Responsive Breakpoint (Phones and Tablets)
+   ========================================================================== */
+@media screen and (max-width: 884px) {
+  
+  .globalBackground {
+    height: 100vh !important; 
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important; 
+    overflow-y: auto !important; 
+    background-color: aliceblue !important; 
+  }
+
+  .topRow {
+    flex-direction: row !important; 
+    height: 70px !important;       
+    width: 100vw !important;
+    padding: 0 !important;          
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important; 
+    background-color: rgb(6, 56, 56) !important;
+    flex: none !important; 
+  }
+
+  .topOne, .topTwo {
+    display: none !important;
+  }
+
+  .topThree {
+    width: 100vw !important; 
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgb(6, 56, 56) !important; 
+    gap: 0 !important; 
+  }
+
+  .topThreeOneContainer,
+  .topThreeTwoContainer,
+  .topThreeThreeContainer,
+  .topThreeFourContainer {
+    height: 100% !important; 
+    flex: 1 !important; 
+    width: 25vw !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    background-color: rgb(6, 56, 56) !important;
+  }
+
+
+  .bodyRow {
+    flex-direction: column !important; 
+    align-items: center !important; 
+    
+    flex-grow: 1 !important; 
+    flex-shrink: 0 !important;
+    height: auto !important;
+    
+    padding: 0 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .bodyLeft {
+    order: -2 !important; 
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+  }
+
+  .bodyCentral {
+    order: -1 !important; 
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  .bodyRight {
+    order: 0 !important;  
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+  }
+
+ 
+  .resumeCVTitleBox {
+    font-size: 1.8rem !important; 
+    margin-bottom: 1.5rem !important;
+    height: auto !important;
+  }
+
+  .resumeCVTextBox {
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+  }
+
+ 
+  .leftLeftContainer, .leftRightContainer,
+  .leftCenterTopContainer, .leftCenterBottomContainer,
+  .rightLeftContainer, .rightRightContainer,
+  .rightCenterTopContainer, .rightCenterBottomContainer {
+    display: none !important; 
+  }
+
+  .leftCenterContainer, .leftCenterCenterContainer,
+  .rightCenterContainer, .rightCenterCenterContainer {
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .dynamBtnFrame, 
+  .dynamDownloadBtnFrame {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 85% !important;
+    max-width: 300px !important;
+    height: 48px !important; 
+    margin: 0.5rem auto !important;
+    padding: 0 !important;         
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;    
+  }
+
+  .dynamBtnFrame {
+    border: 2px solid #004d4d !important;
+    background-color: #004d4d !important;
+  }
+
+  .dynamDownloadBtnFrame {
+    border: 2px solid #004d4d !important;
+    background-color: white !important; 
+  }
+
+  .dynamBtnFrame *,
+  .dynamDownloadBtnFrame * {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    line-height: normal !important; 
+    text-align: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .binaryDownloadBtn,
+  .btnDisplayText,
+  .dynamBtnFrame a,
+  .dynamDownloadBtnFrame a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+    line-height: 44px !important; 
+    
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  
+  .bottomRow {
+    height: 70px !important; 
+    width: 100vw !important;
+    
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    flex: none !important;
+    
+    padding: 0 !important;   
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(6, 56, 56) !important;
+    
+    margin-top: 0 !important; 
+  }
+
+  .bottomOneContainer, .bottomThreeContainer {
+    display: none !important; 
+  }
+
+  .bottomTwoContainer {
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgb(6, 56, 56) !important;
+    gap: 2.5rem !important;
+  }
+
+  .bottomTwoOneContainer,
+  .bottomTwoTwoContainer,
+  .bottomTwoThreeContainer {
+    background-color: rgb(6, 56, 56) !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .githubLogo { width: 32px !important; }
+  .emailLogo { width: 28px !important; }
+  .linkedinLogo { width: 26px !important; }
+}

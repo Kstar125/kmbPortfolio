@@ -18,7 +18,7 @@ function DynamicTitle({toggle}: DynamicTextProps ) {
         return(
             <div className = "resumeBlock">
                 <p className = "resumeSubtitleText">Profile</p>
-                <p className = "resumeText">University of Toronto Master's graduate who studied artificial intelligence and linguistics. Possess 2+ years of experience building <br/>ML data pipelines and using LLMs to deliver insights from structured and unstructured datasets, including as a Lab Manager and <br/>through graduate-level studies. Experienced in using machine learning libraries in Python such as TensorFlow and communicating <br/>results generated from ML workflow analyses in interdisciplinary settings. Seeking to apply machine learning skills to produce <br/>scalable results that match community needs.</p>
+                <p className = "resumeText">University of Toronto Master's graduate who studied artificial intelligence and linguistics. Possess 2+ years of experience building ML data pipelines and using LLMs to deliver insights from structured and unstructured datasets, including as a Lab Manager and through graduate-level studies. Experienced in using machine learning libraries in Python such as TensorFlow and communicating results generated from ML workflow analyses in interdisciplinary settings. Seeking to apply analytical and technical skills to produce scalable results that match community needs.</p>
                 
                 <p className = "resumeSubtitleText">Skills</p>
                 <table className = "resumeTable">

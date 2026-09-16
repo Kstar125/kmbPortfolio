@@ -30,3 +30,54 @@
     text-decoration: none;
 
 }
+
+@media screen and (max-width: 884px) {
+
+
+  .binaryDownloadBtn,
+  .btnDisplayText {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    
+    /* CRITICAL CENTER FIXES: Overrides any inherited left-alignment properties */
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+    /* Line height matches our uniform button frame height for vertical text centering */
+    line-height: 44px !important; 
+    
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-size: 1rem;
+  }
+
+  .binaryDownloadBtn:hover {
+    user-select: none;
+  }
+
+  .binaryDownloadBtn:active {
+    user-select: none;
+  }
+
+  .btnDisplayText {
+    /* 1. Simplify display mechanics */
+    display: block !important; 
+    width: 100% !important;
+    height: auto !important;
+    
+    /* 2. Text-centering alignment corrections */
+    text-align: center !important;
+    line-height: normal !important; /* Clear any hidden inherited line-height baselines */
+    padding: 0 !important; /* Wipe out dynamic spacing pushing labels around */
+    margin: 0 !important;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem !important;
+    color: #004d4d;
+    text-decoration: none;
+    user-select: none;
+  }
+}

@@ -101,7 +101,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Python (Scikit-Learn, Pandas, Numpy, HuggingFace), R.</p>
                
-                <p className = 'projectText'>Quantitative coherence metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics benchmark coherent narrative contiuations 5% more <br /> accurately than prior computational approaches. Novel metrics leverage cosine similarities between embeddings and Eucliedan distance metrics (see image on right) to<br /> indicate coherent continuations.</p>
+                <p className = 'projectText'>Quantitative coherence metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics benchmark coherent narrative contiuations 5% more accurately than prior computational approaches. Novel metrics leverage cosine similarities between embeddings and Eucliedan distance metrics (see image on right) to indicate coherent continuations.</p>
               </div>
             </div>
             
@@ -121,7 +121,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Firebase, JavaScript (Node.js, React), CSS, HTML.</p>
                
-                <p className = 'projectText'>Lexical decision task implemented to collect response times and word identification accuracy using Google Firebase, JavaScript libraries including Node.js and <br /> React. Results collected uphold the cognate facilitation hypothesis between English and Slavic Languages for English-speaking monolinguals.</p>
+                <p className = 'projectText'>Lexical decision task implemented to collect response times and word identification accuracy using Google Firebase, JavaScript libraries including Node.js and React. Results collected uphold the cognate facilitation hypothesis between English and Slavic Languages for English-speaking monolinguals.</p>
               </div>
             </div>
 
@@ -141,7 +141,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Python (Numpy, Pandas, Spacy, StatsModels).</p>
                
-                <p className = 'projectText'>Reddit corpus data pre-processed and analyzed to identify differences in word usage during hedging in conversations between age and gender categories. Logistic <br /> regression implemented through Python statistical libraries indicate significant differences in terms of age and gender.</p>
+                <p className = 'projectText'>Reddit corpus data pre-processed and analyzed to identify differences in word usage during hedging in conversations between age and gender categories. Logistic regression implemented through Python statistical libraries indicate significant differences in terms of age and gender.</p>
               </div>
             </div>
 
@@ -214,3 +214,4 @@ function Portfolio(){
 }
 
 export default Portfolio;
+

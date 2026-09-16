@@ -265,7 +265,7 @@
 .bodyColumnTwo{
   display: flex;
   height: 100%;
-  flex: 1.5; /* 1.5 in-line with TopThreeOne Container */
+  flex: 1.5; 
   background-color: aliceblue;
   flex-direction: column;
   justify-content: center; 
@@ -301,4 +301,212 @@
   width: 100vw;
   flex: 1;
   background-color: rgb(6, 56, 56);
+}
+
+/* ==========================================================================
+   Mobile-Friendly Responsive Breakpoint (Phones and Tablets)
+   ========================================================================== */
+@media screen and (max-width: 884px) {
+  
+ 
+  .globalBackground {
+    height: 100vh !important; 
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important; 
+    overflow-y: auto !important; 
+    background-color: aliceblue !important; 
+  }
+
+  
+  .topRow {
+    flex-direction: row !important; 
+    height: 70px !important;       
+    width: 100vw !important;
+    padding: 0 !important;          
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important; 
+    background-color: rgb(6, 56, 56) !important;
+    flex: none !important; 
+  }
+
+  .topOne, .topTwo {
+    display: none !important;
+  }
+
+  .topThree {
+    width: 100vw !important; 
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgb(6, 56, 56) !important; 
+    gap: 0 !important; 
+  }
+
+  
+  .topThreeOneContainer,
+  .topThreeTwoContainer,
+  .topThreeThreeContainer {
+    height: 100% !important; 
+    flex: 1 !important; 
+    width: 33.3vw !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    background-color: rgb(6, 56, 56) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .homeText, .aboutText, .portfolioText {
+    font-size: 1rem !important; 
+  }
+
+  
+    .bodyRow {
+    flex-direction: column !important; 
+    align-items: center !important; 
+    
+  
+    flex-grow: 1 !important; 
+    flex-shrink: 0 !important;
+    height: auto !important;
+    
+    padding: 0 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .bodyColumnOne {
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+    background-color: aliceblue !important;
+  }
+
+  .bodyColumnOneOneContainer {
+    width: 100% !important;
+    padding: 1.5rem !important; 
+    box-sizing: border-box !important;
+    height: auto !important;
+    flex: none !important;
+  }
+
+ 
+  .bodyColumnOneTitleContainer {
+    font-size: 1.4rem !important; 
+    flex-direction: column !important; 
+    align-items: flex-start !important; 
+    gap: 0.5rem !important; 
+    width: 100% !important;
+    height: auto !important;
+    background-color: transparent !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  
+  .leftTitleContainer {
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    justify-content: flex-start !important;
+  }
+
+  
+  .rightTitleContainer {
+    display: flex !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: transparent !important;
+    justify-content: flex-start !important; 
+  }
+
+  .bodyColumnOneTextContainer {
+    width: 100% !important;
+    height: auto !important;
+    flex: none !important;
+    padding: 0 !important;
+  }
+
+ 
+  .languageSubtitles {
+    font-size: 1rem !important;
+    text-align: left !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .projectText {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+    margin-bottom: 2rem !important; 
+  }
+
+ 
+  .gitHubLink, .gitHubLink:hover {
+    font-size: 0.95rem !important;
+    display: inline-block !important;
+    padding: 0.4rem 0.8rem !important;
+    margin-top: 0.25rem !important;
+    border: 1px solid rgb(6, 56, 56) !important;
+    border-radius: 4px !important;
+    background-color: rgba(6, 56, 56, 0.05); 
+  }
+
+
+  .bodyColumnBuffer,
+  .bodyColumnTwo,
+  .secondColumnBufferPortfolio,
+  .secondColumnBottomPortfolio {
+    display: none !important;
+  }
+
+  .bottomRow {
+    height: 70px !important; 
+    width: 100vw !important;
+    
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    flex: none !important;
+    
+    padding: 0 !important;   
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(6, 56, 56) !important;
+  
+    margin-top: 0 !important; 
+  }
+
+  .bottomOneContainer, .bottomThreeContainer {
+    display: none !important; 
+  }
+
+  .bottomTwoContainer {
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgb(6, 56, 56) !important;
+    gap: 2.5rem !important;
+  }
+
+  .bottomTwoOneContainer,
+  .bottomTwoTwoContainer,
+  .bottomTwoThreeContainer {
+    background-color: rgb(6, 56, 56) !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .githubLogo { width: 32px !important; }
+  .emailLogo { width: 28px !important; }
+  .linkedinLogo { width: 26px !important; }
 }

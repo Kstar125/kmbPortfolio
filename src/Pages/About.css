@@ -342,3 +342,150 @@
   align-items: center;
   
 }
+
+@media screen and (max-width: 884px) {
+  
+    .globalBackground {
+    height: 100vh !important; 
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important; 
+    overflow-y: auto !important; 
+    background-color: aliceblue !important; 
+  }
+
+  .topRow {
+    flex-direction: row !important; 
+    height: 70px !important;       
+    width: 100vw !important;
+    padding: 0 !important;          
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    flex: none !important; 
+  }
+
+  .topOne, .topTwo {
+    display: none !important; 
+  }
+
+  .topThree {
+    width: 100vw !important; 
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent; 
+    gap: 0 !important; 
+  }
+
+ 
+  .topThreeOneContainer,
+  .topThreeTwoContainer,
+  .topThreeThreeContainer {
+    height: 100% !important; 
+    flex: 1 !important; 
+    width: 33.3vw !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .homeText, .aboutText, .portfolioText {
+    font-size: 1rem !important; 
+  }
+
+  
+  .bodyRow {
+    flex-direction: column !important; 
+    align-items: center !important; 
+    
+    flex-grow: 1 !important; 
+    flex-shrink: 0 !important;
+    height: auto !important;
+    
+    padding: 0 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .bodyColumnOne {
+    width: 100%;
+    height: auto;
+    flex: none;
+  }
+
+  
+  .bodyColumnTwo {
+    display: none !important;
+  }
+  
+
+  .titleNameTextContainer {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .subtitleNameTextContainer {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5rem !important; 
+  }
+
+  .bodyTextActualAbout {
+    font-size: 1rem !important; 
+    padding: 0 1.5rem !important; 
+    width: 100% !important;
+    box-sizing: border-box !important;
+    height: auto !important;
+    flex: none !important;
+  }
+
+  .bufferAboutContainer,
+  .bodyTextButtonRibbon {
+    display: none !important;
+  }
+
+
+  .bottomRow {
+    height: 70px !important; 
+    width: 100vw !important;
+    
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    flex: none !important;
+    
+    padding: 0 !important;   
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(6, 56, 56) !important;
+    
+    margin-top: 0 !important; 
+  }
+
+  .bottomOneContainer, .bottomThreeContainer {
+    display: none !important; 
+  }
+
+  .bottomTwoContainer {
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 2.5rem;
+  }
+
+  .githubLogo { width: 32px; }
+  .emailLogo { width: 28px; }
+  .linkedinLogo { width: 26px; }
+}

@@ -85,15 +85,21 @@ function Home() {
 
               <div className = 'bodyTextBarrier'></div>
               <div className = 'bodyTextActual'>
+                  
                 <ul style={{ listStyleType: 'none', padding: 0, margin: '0 0 2.5rem 0', lineHeight: '1.9', color: '#2d3748' }}>
-                  <li><strong>•  Education:</strong> University of Toronto Master’s in Linguistics - Computational Focus</li>
-                  <li><strong>•  Expertise:</strong> Computational Linguistics & Machine Learning</li>
-                  <li><strong>•  Experience:</strong> 2+ years deriving insights from (un)structured data</li>
-                  <li><strong>•  Research:</strong> Developed LLM benchmarks for evaluating language-model performance at UofT</li>
-                  <li><strong>•  Impact:</strong> Technical and Analytical roles at Rotman Research Institute & Nokia</li>
-                  <li className = 'loadBearing'>`</li>
-                  <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/resumeKMB.pdf" className = "resumeDownloadButton">Download Resumé</a></li>
-
+                  <div className = "bodyTextMobilePadding">
+                    <li><strong>•  Education:</strong> University of Toronto Master’s in Linguistics - Computational Focus</li>
+                    <li><strong>•  Expertise:</strong> Computational Linguistics & Machine Learning</li>
+                    <li><strong>•  Experience:</strong> 2+ years deriving insights from (un)structured data</li>
+                    <li><strong>•  Research:</strong> Developed LLM benchmarks for evaluating language-model performance at UofT</li>
+                    <li><strong>•  Impact:</strong> Technical and Analytical roles at Rotman Research Institute & Nokia</li>
+                    <li> </li>
+                  </div>
+                    <li className = 'loadBearing'>`</li>
+                  
+                    <div className = "buttonManagement"> 
+                      <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/resumeKMB.pdf" className = "resumeDownloadButton">Download Resumé</a></li>
+                    </div>
                 </ul>
 
               </div>
@@ -121,7 +127,7 @@ function Home() {
             </div>
             <div className = "secondColumnPhoto">
               <div className = 'secondColumnPhotoDisplay'>
-              <img src = "/portrait.jpg" className = 'portraitPhoto'/>
+                <img src = "/portrait.jpg" className = 'portraitPhoto'/>
               </div>
             </div>
 
