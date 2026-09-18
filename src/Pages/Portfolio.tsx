@@ -101,7 +101,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Python (Scikit-Learn, Pandas, Numpy, HuggingFace), R.</p>
                
-                <p className = 'projectText'>Quantitative coherence metrics formulated from sentence-level embeddings derived from BERT-family LLMs. Metrics benchmark coherent narrative contiuations 5% more accurately than prior computational approaches. Novel metrics leverage cosine similarities between embeddings and Eucliedan distance metrics (see image on right) to indicate coherent continuations.</p>
+                <p className = 'projectText'>This project introduces new LLM-based metrics that researchers can use to quantify the coherence of text documents. The novel LLM-based metrics indicate coherent narrative continuations over relatively incoherent continuations 5% more accurately than prior computational approaches. These metrics leverage cosine similarities between embeddings and Euclidean distance metrics to indicate coherent continuations.</p>
               </div>
             </div>
             
@@ -121,7 +121,7 @@ function Portfolio(){
               <div className = 'bodyColumnOneTextContainer'>
                 <p className = 'languageSubtitles'>Firebase, JavaScript (Node.js, React), CSS, HTML.</p>
                
-                <p className = 'projectText'>Lexical decision task implemented to collect response times and word identification accuracy using Google Firebase, JavaScript libraries including Node.js and React. Results collected uphold the cognate facilitation hypothesis between English and Slavic Languages for English-speaking monolinguals.</p>
+                <p className = 'projectText'>This project introduces novel findings upholding the Cognate Facilitation Hypothesis between English and Russian for English-speaking monolinguals. In this project, Google Firebase and JavaScript libraries were used to implement a lexical decision task, collecting response time and word identification accuracy data.</p>
               </div>
             </div>
 
@@ -139,9 +139,9 @@ function Portfolio(){
               </div>
 
               <div className = 'bodyColumnOneTextContainer'>
-                <p className = 'languageSubtitles'>Python (Numpy, Pandas, Spacy, StatsModels).</p>
+                <p className = 'languageSubtitles'>Python (NumPy, Pandas, Spacy, StatsModels).</p>
                
-                <p className = 'projectText'>Reddit corpus data pre-processed and analyzed to identify differences in word usage during hedging in conversations between age and gender categories. Logistic regression implemented through Python statistical libraries indicate significant differences in terms of age and gender.</p>
+                <p className = 'projectText'>This project uses Reddit text corpus data and identifies statistically significant differences in the usage of hedging words between speakers of different ages and genders. In this project, Python libraries including spaCy, Pandas, and NumPy were used to pre-process text data. Logistic regression analyses were then implemented using StatsModels.</p>
               </div>
             </div>
 
