@@ -93,9 +93,9 @@ function Home() {
                     <li><strong>•  Experience:</strong> 2+ years deriving insights from (un)structured data</li>
                     <li><strong>•  Research:</strong> Developed LLM benchmarks for evaluating language-model performance at UofT</li>
                     <li><strong>•  Impact:</strong> Technical and Analytical roles at Rotman Research Institute & Nokia</li>
-                    <li> </li>
+                    <li></li>
                   </div>
-                    <li className = 'loadBearing'>`</li>
+                    <div className = 'listButtonSpace'></div>
                   
                     <div className = "buttonManagement"> 
                       <li><a href="/Portfolio" className = "ctaPortfolioButton">View Portfolio</a> <a href="/resumeKMB.pdf" className = "resumeDownloadButton">Download Resumé</a></li>

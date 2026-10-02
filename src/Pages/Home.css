@@ -349,8 +349,10 @@
   aspect-ratio: 11 / 12;
 }
 
-.loadBearing{
+.listButtonSpace{
   color: rgba(240, 248, 255, 0.735);
+  user-select: none;
+  height: 4.15vh;
 }
 
 .ctaPortfolioButton{
